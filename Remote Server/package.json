@@ -1,0 +1,13 @@
+{
+  "name": "Remote_Server",
+  "version": "1.1.1",
+  "description": "Simple Webserver that act as a Signalling Server",
+  "scripts": {
+    "start": "node SignalServer.js"
+  },
+  "main": "SignalServer.js",
+  "dependencies": {
+    "node-static": "~0.7.9",
+    "socket.io": "~1.5.0"
+  }
+}
